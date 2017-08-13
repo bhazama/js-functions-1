@@ -3,29 +3,39 @@
  * @param {number} n
  * @return {string} the number as a string
  */
-
-
+  function toString(num){
+    return num.toString();
+  }
+  console.log(toString(1));
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
-
+ function addOne(num){
+  return num + 1;
+ }
+ console.log(addOne(1));
 
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
-
-
+ function subOne(num){
+  return num - 1;
+ }
+ console.log(subOne(4));
 /**
  * Adds two numbers.
  * @param {number} x
  * @param {number} y
  * @return {number} the sum
  */
-
+ function addUp(num1, num2){
+  return num1 + num2;
+ }
+ console.log(addUp(2,2));
 
 /**
  * Subtracts the second number from the first.
@@ -33,15 +43,20 @@
  * @param {number} y
  * @return {number} the difference
  */
-
-
+ function subSecond(num1, num2){
+  return num2 - num1;
+ }
+ console.log(subSecond(3, 8));
 /**
  * Multiplies two numbers.
  * @param {number} x
  * @param {number} y
  * @return {number} the product
  */
-
+ function multi(num1, num2){
+  return num1 * num2;
+ }
+ console.log(multi(2,3));
 
 /**
  * Divides the first number by the second.
@@ -49,7 +64,10 @@
  * @param {number} y
  * @return {number} the quotient
  */
-
+ function divFirst(num1, num2){
+  return num1 / num2;
+ }
+ console.log(divFirst(49, 7));
 
 /**
  * Multiplies a number by itself.
