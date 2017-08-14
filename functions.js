@@ -6,7 +6,7 @@
   function toString(num){
     return num.toString();
   }
-  console.log(toString(1));
+  console.log(toString(2));
 /**
  * Adds one to a given number.
  * @param {number} n
